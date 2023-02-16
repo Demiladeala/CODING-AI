@@ -41,7 +41,7 @@ app.post('/', async (req, res) => {
 
   } catch (error) {
     console.error(error)
-    res.status(500).send(error || 'Something went wrong');
+    res.status(500).send(error || 'Something went wrong! I only explain complicated pieces of code! ask code questions like "create a react hook"');
   }
 })
 
